@@ -1,20 +1,12 @@
-# 🎬 Movie Recommendation System using Neo4j Graph Database
+# Movie Recommendation System using Neo4j Graph Database
 
-## 📌 Project Overview
+## Project Overview
 This project implements a graph-based movie recommendation system using **Neo4j** as the backend database. The system provides personalized movie suggestions by leveraging relationships between movies, actors, directors, genres, and user interactions. The frontend is built with modern web technologies (HTML5, CSS3, JavaScript) to create an interactive user experience.
 
 ---
 
-## 🏫 Institution
-**International University of Sarajevo**  
-Course: Introduction to Database Management (Project II)  
-Professor: Dr. Ali Abd Almisreb  
-Students: Asja Bašović, Sara Avdić, Hatidža Imamović, Farah Mašić, Lana Hasanbegović  
-Date: May 27, 2025
 
----
-
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -28,7 +20,7 @@ Date: May 27, 2025
 
 ---
 
-## 📊 Database Design
+##  Database Design
 
 ### Nodes:
 - **Movie**: Contains attributes like `title`, `year`, `rating`, `director`, `star`, etc.
@@ -45,7 +37,7 @@ Date: May 27, 2025
 
 ---
 
-## 🔧 Implementation Highlights
+##  Implementation Highlights
 
 ### 1. **Data Preparation**
 - Dataset sourced from [Kaggle Movie Industry Dataset](https://www.kaggle.com/datasets/danielgrijalvas/movies)
@@ -80,7 +72,7 @@ Date: May 27, 2025
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### Prerequisites:
 - Neo4j Desktop installed
@@ -104,7 +96,7 @@ Date: May 27, 2025
 
 ---
 
-## 📈 Scalability & Performance
+## Scalability & Performance
 - Graph model designed for efficient traversal
 - Indexes on frequently queried properties (movieID, userID)
 - Modular frontend and backend for easy scaling
@@ -112,7 +104,7 @@ Date: May 27, 2025
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Integrate real-time data from streaming APIs
 - Implement collaborative filtering
 - Add machine learning for predictive recommendations
@@ -121,7 +113,7 @@ Date: May 27, 2025
 
 ---
 
-## 📚 References
+## References
 - Neo4j Documentation & Blogs
 - MDN Web Docs, CSS-Tricks, JavaScript.info
 - Research papers on recommender systems and graph databases
@@ -129,7 +121,7 @@ Date: May 27, 2025
 
 ---
 
-## 👥 Team Contribution
+## Team Contribution
 - **Asja Bašović, Sara Avdić, Hatidža Imamović, Farah Mašić, Lana Hasanbegović**
 - Work included: data preprocessing, database design, frontend development, recommendation logic, testing, and documentation.
 
@@ -139,5 +131,3 @@ Date: May 27, 2025
 Educational project for academic purposes at International University of Sarajevo.
 
 ---
-
-*Built with ❤️ using Neo4j, HTML, CSS & JavaScript.*
